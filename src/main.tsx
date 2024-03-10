@@ -10,23 +10,23 @@ import { Success } from './pages/Success'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/pizza-delivery',
     element: <App />,
     children: [
       {
-        path: '/',
+        path: '/pizza-delivery',
         element: <Home />,
       },
       {
-        path: '/menu',
+        path: '/pizza-delivery/menu',
         element: <Menu />,
       },
       {
-        path: '/cart',
+        path: '/pizza-delivery/cart',
         element: <Cart />,
       },
       {
-        path: 'order/:newOrderId/success',
+        path: '/pizza-delivery/order/:newOrderId/success',
         element: <Success />,
       },
     ],
