@@ -1,0 +1,68 @@
+{
+    "pizzas": [
+        {
+            "id": 0,
+            "flavour": "Marguerita",
+            "tags":["tradicional", "vegetariana"],
+            "price": 42.00,
+            "image": "/images/pizzas/marguerita.png",
+            "description": "Elegante e clássica, destaca-se com tomate fresco, muçarela, manjericão e azeite de oliva."
+        },
+        {
+            "id": 1,
+            "flavour": "Muçarela",
+            "tags":["tradicional" ],
+            "price": 42.00,
+            "image": "/images/pizzas/mucarela.png",
+            "description": "Destaca-se na cremosidade desse queijo clássico com molho de tomate."
+        },
+        {
+            "id": 2,
+            "flavour": "Pepperoni",
+            "tags":["tradicional", "carne" ],
+            "price": 42.90,
+            "image": "/images/pizzas/pepperoni.png",
+            "description": "Picante e defumada, um deleite para os amantes de carnes curadas."
+        },
+        {
+            "id": 3,
+            "flavour": "Brócolis",
+            "tags":["vegetariana" ],
+            "price": 44.00,
+            "image": "/images/pizzas/brocolis.png",
+            "description": "Leve e saudável, combina a frescura do vegetal com queijo derretido e molho de tomate."
+        },
+        {
+            "id": 4,
+            "flavour": "Bacon",
+            "tags":["carne" ],
+            "price": 46.90,
+            "image": "/images/pizzas/bacon.png",
+            "description": "Deliciosamente defumada e salgada,é uma escolha robusta para os amantes de carne."
+        },
+        {
+            "id": 5,
+            "flavour": "Calabresa & Pimentão",
+            "tags":["tradicional" ],
+            "price": 46.00,
+            "image": "/images/pizzas/calabresaPimentao.png",
+            "description": "Um clássico picante, oferece uma mistura irresistível de calabresa com pimentão."
+        },
+        {
+            "id": 6,
+            "flavour": "Camarão",
+            "tags":["carne" ],
+            "price": 48.90,
+            "image": "/images/pizzas/camarao.png",
+            "description": "Sofisticada e saborosa,combina frutos do mar, queijo e molho de tomate."
+        },
+        {
+            "id": 7,
+            "flavour": "Cogumelo",
+            "tags":["vegetariana"],
+            "price": 44.00,
+            "image": "/images/pizzas/cogumelo.png",
+            "description": "Uma explosão terrosa, encanta os amantes desse ingrediente, com queijo derretido."
+        }
+    ]
+}
