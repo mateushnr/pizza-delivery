@@ -95,7 +95,7 @@ export const Cart = () => {
   const deliveryFee = 3.5
 
   const totalItemPrice = pizzaInCart.reduce(
-    (total, item) => total + Number(item.price),
+    (total, item) => (total += item.price * item.quantity),
     0,
   )
 

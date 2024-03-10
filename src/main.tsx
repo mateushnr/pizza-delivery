@@ -8,30 +8,33 @@ import { Menu } from './pages/Menu'
 import { Cart } from './pages/Cart'
 import { Success } from './pages/Success'
 
-const router = createBrowserRouter([
-  {
-    path: '/pizza-delivery',
-    element: <App />,
-    children: [
-      {
-        path: '/pizza-delivery',
-        element: <Home />,
-      },
-      {
-        path: '/pizza-delivery/menu',
-        element: <Menu />,
-      },
-      {
-        path: '/pizza-delivery/cart',
-        element: <Cart />,
-      },
-      {
-        path: '/pizza-delivery/order/:newOrderId/success',
-        element: <Success />,
-      },
-    ],
-  },
-])
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [
+        {
+          path: '/',
+          element: <Home />,
+        },
+        {
+          path: '/menu',
+          element: <Menu />,
+        },
+        {
+          path: '/cart',
+          element: <Cart />,
+        },
+        {
+          path: '/order/:newOrderId/success',
+          element: <Success />,
+        },
+      ],
+    },
+  ],
+  { basename: '/pizza-delivery' },
+)
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

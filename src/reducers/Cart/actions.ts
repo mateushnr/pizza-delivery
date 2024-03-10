@@ -31,7 +31,7 @@ export type Actions =
       payload: {
         data: DataProps
         total: number
-        navigate: NavigateFunction
+        callback: NavigateFunction
       }
     }
 
@@ -73,14 +73,14 @@ export function removeItemAction(id: number): Actions {
 
 export function createOrderAction(
   order: Order,
-  navigate: NavigateFunction,
+  callback: NavigateFunction,
 ): Actions {
   return {
     type: ActionTypes.CREATE_ORDER,
     payload: {
       data: order.data,
       total: order.total,
-      navigate,
+      callback,
     },
   }
 }

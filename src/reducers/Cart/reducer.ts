@@ -90,7 +90,7 @@ export function reducer(state: stateType, action: Actions) {
         lastAddressJSON,
       )
 
-      action.payload.navigate(`/order/${newOrderId}/success`)
+      action.payload.callback(`/order/${newOrderId}/success`)
 
       return {
         cart: [],
